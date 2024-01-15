@@ -1,0 +1,3 @@
+I have a segfault occuring in my nain.c file in the hanmang() function on line 219. After testing with valgrind, I believe the error is because the function 
+get_new_key_value is trying to access data it can't, which is causing the game to crash. I have been trying different things like calling the fuction differently, 
+moving the function from my_string.c to main.c, and I have been unsuccessful in solving the error as of 12/13/23. This is also resulting in a memory leak. 
